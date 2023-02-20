@@ -6,14 +6,28 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafabpg/Project-NodeJS-Fastify.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^18.13.0",
-    "typescript": "^4.9.5"
+  "bugs": {
+    "url": "https://github.com/rafabpg/Project-NodeJS-Fastify/issues"
   },
+  "homepage": "https://github.com/rafabpg/Project-NodeJS-Fastify#readme",
   "dependencies": {
-    "fastify": "^4.13.0"
+    "@prisma/client": "^4.10.1",
+    "@types/node": "^18.14.0",
+    "fastify": "^4.13.0",
+    "fastify-jwt": "^4.2.0",
+    "fastify-swagger": "^5.2.0",
+    "fastify-zod": "^1.2.0",
+    "prisma": "^4.10.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.5",
+    "zod": "^3.20.6",
+    "zod-to-json-schema": "^3.20.4"
   }
 }
